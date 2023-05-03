@@ -9,6 +9,8 @@
     <h4> Best Time to Visit : {{book.BestTimeToVisit}} </h4>
     <h4> Ranked : {{book.Rank}} </h4>
     <h4> No Of Visitors : {{book.NoOfVisitor}} </h4>
+    <h4> has visa on arival from USA : {{book.hasVisaOnArrival}} </h4>
+    <h4>percentage of total countries population : {{book.percentOfCountryPopulation}} </h4>
     </div>
 </template>
 

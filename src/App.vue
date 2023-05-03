@@ -29,7 +29,7 @@ export default{
   methods:{
     //promoises
     async fetchbooks(){
-      const res = await fetch('http://localhost:5555/api ');
+      const res = await fetch('https://node-app-8mus.onrender.com/api');
       const data = await res.json()
       console.log(data)
       return data
